@@ -1,0 +1,67 @@
+body
+{
+	background: lightblue;
+	font-family: 'Lobster', cursive;
+}
+#my_h1{
+text-shadow: 2px 2px yellow;
+
+}
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		box-shadow:3px 3px 3px grey;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	font-weight:bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+box-shadow: 3px 3px 3px grey;
+}
+#login{
+	transition:transform 3s;
+	
+	
+	 }
+#login:hover{
+transform:rotateZ(180deg);
+ }
+
+ #btnsend{
+ box-shadow: 3px 3px 3px grey;
+ width:40%;
+ transition:transform 0.5s;
+ 
+ }
+
+ #btnsend:hover{
+  transform:translate(5px,3px);
+
+ }
+ 
+
+
+ 
